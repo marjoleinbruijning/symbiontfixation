@@ -1,7 +1,7 @@
 
 
 ######################################################
-## Code to reproduce figures from:
+## Code to reproduce figures presented in Box 1, from
 ## The bacterial march to symbiosis: on-ramps and off-ramps
 ## Bruijning et al.
 ## Code written by: Marjolein Bruijning
