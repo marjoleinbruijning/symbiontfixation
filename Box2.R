@@ -19,7 +19,7 @@ require('popbio')
 require('mcprogress')
 
 ## General settings
-ncores <- 10
+ncores <- 10 ## number of cores to use
 simul <- TRUE ## run all simulations (if FALSE, load from existing files)
 plott <- TRUE ## create plots?
 
@@ -200,9 +200,10 @@ if (plott) {
 ## Host demographic stochasticity
 ####################################################
 
+## Can take up to a few days to run
 cat('\r\r \t ------ Host life history ------- \n')
 
-reps <- 5e5
+reps <- 1e5
 times <- 1e7 # maximum number of time steps
 
 ## Settings
